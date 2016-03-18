@@ -1,0 +1,56 @@
+#browser
+  #browser-bar
+    .circles 
+    .circles 
+    .circles 
+    %p Contact Us
+    %span.arrow.entypo-resize-full
+  #content
+    #left
+      #map 
+        %p Where To Find Us
+        .map-locator
+          .tooltip
+            %ul
+              %li 
+                %span.entypo-location
+                %span.selectedLocation India
+              %li 
+                %span.entypo-mail 
+                %a{:href => "#"} theclassicwares@gmail.com
+              %li 
+                %span.entypo-phone 
+                +918560856080
+        .zoom
+      %ul#location-bar
+        %li 
+          %a{:href => "http://f.cl.ly/items/452R3S1440221Z3m372j/israel.png",
+          :data => {:location => 'India'},
+          :class => "location"} India
+    #right
+      %p Connect
+      #social
+        %a.social
+          %span.entypo-facebook
+        %a.social
+          %span.entypo-twitter
+        %a.social
+          %span.entypo-linkedin
+        %a.social
+          %span.entypo-gplus
+        %a.social
+          %span.entypo-instagrem
+
+      %form
+        %p Get in Contact
+        %input{:type => "email", :placeholder => "Email"}/ 
+        %input{:type => "text", :placeholder => "Subject"}
+        
+        %textarea{:placeholder => "Message", :rows => "4"}
+        
+        %input{:type => "submit", :placeholder => "Send"}/ 
+        
+      %p other way
+      %p.other.entypo-mail 
+        %a{:href => "#"} theclassicwares@gmail.com
+      %p.other.entypo-phone +918560856080
